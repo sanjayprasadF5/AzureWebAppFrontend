@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-import "./ApiCall.css"; // Import your component-specific styles
+import "./ApiCall.css";
 
 const ApiCall = () => {
   const [data, setData] = useState(null);
